@@ -5,6 +5,9 @@
   .is-sidebar-menu li a {
     color: white;
   }
+  .is-sidebar-menu li a:hover {
+    color: blue;
+  }
   
   .columns.is-fullheight {
     min-height: calc(100vh - ( 3.25rem - .75rem ) );
