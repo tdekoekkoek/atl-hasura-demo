@@ -22,6 +22,16 @@
           <a class="navbar-item " href="http://hasura.io">
             Hasura Home
           </a>
+          <a class="navbar-item " href="https://www.apollographql.com/docs/">
+            Apollo docs
+          </a>
+          <a class="navbar-item " href="https://www.apollographql.com/docs/angular/">
+            Apollo Angular docs
+          </a>
+          <a class="navbar-item " href="https://www.apollographql.com/docs/angular/basics/setup/">
+            Apollo Angular Setup
+          </a>
+
         </div>
       </div>
     </div>
@@ -38,12 +48,22 @@
         Chat
       </p>
       <ul class="menu-list">
-        <li><a>Rooms</a></li>
-        <li><a>Profile</a></li>
+        <!--<li><a>Rooms</a></li>-->
+        <!--<li><a>Profile</a></li>-->
+        <li><a routerLink="/chat">Queries</a> </li>
+        <li><a routerLink="/chat">Queries with parameters</a> </li>
+        <li></li>
+        <li>mutations</li>
+        <li>storing the apolly query object</li>
+        <li>subscriptions</li>
       </ul>
     </aside>
   </div>
   <div class="column is-main-content">
-    Main content
+
+
+
+    <router-outlet></router-outlet>
+
   </div>
 </div>
